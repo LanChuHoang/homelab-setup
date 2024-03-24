@@ -1,0 +1,25 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.1.0.json",
+  "WinGetVersion": "0.3.11201",
+  "Sources": [
+    {
+      "Packages": [
+        { "Id": "Microsoft.VisualStudioCode", "Version": "1.87.1" },
+        { "Id": "Microsoft.PowerToys", "Version": "0.79.0" },
+        { "Id": "JetBrains.DataGrip", "Version": "2023.3.4" },
+        { "Id": "Discord.Discord", "Version": "1.0.9035" },
+        { "Id": "Armin2208.WindowsAutoNightMode", "Version": "10.4.1.1" },
+        { "Id": "calibre.calibre", "Version": "7.7.0" },
+        { "Id": "Microsoft.PowerShell", "Version": "7.4.1.0" },
+        { "Id": "Microsoft.Teams", "Version": "23257.2618.2432.4374" },
+        { "Id": "Microsoft.WindowsTerminal" }
+      ],
+      "SourceDetails": {
+        "Argument": "https://winget.azureedge.net/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ]
+}
