@@ -23,23 +23,23 @@ try {
 }
 
 # Apply terminal settings
-try {
-    $sourceFilePath = ".\terminal-settings.json"  # Specify the path to your settings file
-    $destinationFolderPath = "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
-    $destinationFilePath = Join-Path -Path $destinationFolderPath -ChildPath "settings.json"
+# try {
+#     $sourceFilePath = ".\terminal-settings.json"  # Specify the path to your settings file
+#     $destinationFolderPath = "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
+#     $destinationFilePath = Join-Path -Path $destinationFolderPath -ChildPath "settings.json"
 
-    # Copy your settings file to the destination folder
-    Copy-Item -Path $sourceFilePath -Destination $destinationFolderPath -Force
+#     # Copy your settings file to the destination folder
+#     Copy-Item -Path $sourceFilePath -Destination $destinationFolderPath -Force
 
-    # Rename the copied file to settings.json if needed
-    Rename-Item -Path (Join-Path -Path $destinationFolderPath -ChildPath "settings.json") -NewName "settings-backup.json"
+#     # Rename the copied file to settings.json if needed
+#     Rename-Item -Path (Join-Path -Path $destinationFolderPath -ChildPath "settings.json") -NewName "settings-backup.json"
 
-    # Rename your file to settings.json if needed
-    Rename-Item -Path $sourceFilePath -NewName "settings.json"
-} catch {
-    Write-Host "Failed to apply terminal settings."
-    Exit
-}
+#     # Rename your file to settings.json if needed
+#     Rename-Item -Path $sourceFilePath -NewName "settings.json"
+# } catch {
+#     Write-Host "Failed to apply terminal settings."
+#     Exit
+# }
 
 
 # Install wsl
