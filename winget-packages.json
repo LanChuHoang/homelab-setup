@@ -15,7 +15,8 @@
         { "Id": "Microsoft.WindowsTerminal" },
         { "Id": "Git.Git" },
         { "Id": "DEVCOM.JetBrainsMonoNerdFont" },
-        { "Id": "Logitech.OptionsPlus" }
+        { "Id": "Logitech.OptionsPlus" },
+        { "Id": "Notion.Notion" }
       ],
       "SourceDetails": {
         "Argument": "https://winget.azureedge.net/cache",
