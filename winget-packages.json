@@ -12,7 +12,8 @@
         { "Id": "calibre.calibre", "Version": "7.7.0" },
         { "Id": "Microsoft.PowerShell", "Version": "7.4.1.0" },
         { "Id": "Microsoft.Teams", "Version": "23257.2618.2432.4374" },
-        { "Id": "Microsoft.WindowsTerminal" }
+        { "Id": "Microsoft.WindowsTerminal" },
+        { "Id": "Git.Git" }
       ],
       "SourceDetails": {
         "Argument": "https://winget.azureedge.net/cache",
