@@ -14,7 +14,8 @@
         { "Id": "Microsoft.Teams" },
         { "Id": "Microsoft.WindowsTerminal" },
         { "Id": "Git.Git" },
-        { "Id": "DEVCOM.JetBrainsMonoNerdFont" }
+        { "Id": "DEVCOM.JetBrainsMonoNerdFont" },
+        { "Id": "Logitech.OptionsPlus" }
       ],
       "SourceDetails": {
         "Argument": "https://winget.azureedge.net/cache",
