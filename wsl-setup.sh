@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Install docker
+chmod +x ./wsl/install-docker.sh
 ./wsl/install-docker.sh
 
 # Install kubectl
