@@ -1,9 +1,21 @@
 #!/bin/bash
 
+chmod +x ./wsl/*.sh
+
 # Install docker
-chmod +x ./wsl/install-docker.sh
-./wsl/install-docker.sh
+# ./wsl/install-docker.sh
 
 # Install kubectl
-chmod +x ./wsl/install-kubectl.sh
-./wsl/install-kubectl.sh
+# ./wsl/install-kubectl.sh
+
+# Install zsh
+# ./wsl/install-zsh.sh
+
+# Install oh-my-zsh
+# ./wsl/install-oh-my-zsh.sh
+
+# Install miniconda
+# ./wsl/install-miniconda.sh
+
+# Install node
+./wsl/install-node.sh
