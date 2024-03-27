@@ -27,4 +27,7 @@ chmod +x ./wsl/*.sh
 # ./wsl/install-nerd-font.sh
 
 # Install space-prompt
-./wsl/install-space-promt.sh
+# ./wsl/install-space-promt.sh
+
+# Install omz plugins
+./wsl/install-omz-plugins.sh
