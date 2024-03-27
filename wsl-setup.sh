@@ -21,4 +21,10 @@ chmod +x ./wsl/*.sh
 # ./wsl/install-node.sh
 
 # Install java
-./wsl/install-java.sh
+# ./wsl/install-java.sh
+
+# Install nerd-fonts
+# ./wsl/install-nerd-font.sh
+
+# Install space-prompt
+./wsl/install-space-promt.sh
