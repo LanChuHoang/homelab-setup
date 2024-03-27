@@ -18,4 +18,7 @@ chmod +x ./wsl/*.sh
 # ./wsl/install-miniconda.sh
 
 # Install node
-./wsl/install-node.sh
+# ./wsl/install-node.sh
+
+# Install java
+./wsl/install-java.sh
