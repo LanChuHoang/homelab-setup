@@ -8,7 +8,7 @@
    ```
 
 2. (Optional) Change `NOTIFY=0` to `NOTIFY=1` in the script to enable notifications.
-   _NOTE_: This only works on WSL2 and requires the package `BurntToast` to be installed on the Window 11 host. To install the package, run the following command in PowerShell:
+   _Note_: This only works on WSL2 and requires the package `BurntToast` to be installed on the Window 11 host. To install the package, run the following command in PowerShell:
 
    - Open PowerShell as an administrator and run the following command:
 
