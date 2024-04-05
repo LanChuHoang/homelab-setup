@@ -10,7 +10,7 @@ notify() {
 }
 
 for (( i = 0; i < NUM_ATTEMPS; i++ )); do
-  ping -c1 "$HOST_IP" &>/dev/null
+  ping -c1 "$HOST_IP" &> /dev/null
   exit_status=$?
   
   if [[ $exit_status -eq 0 ]]; then
