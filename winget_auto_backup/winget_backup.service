@@ -1,0 +1,12 @@
+[Unit]
+Description=Auto export installed winget packages and push to git
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/winget_backup.sh
+Restart=on-failure
+User=lanchu
+
+[Install]
+WantedBy=multi-user.target
